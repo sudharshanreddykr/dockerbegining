@@ -16,9 +16,10 @@ function App() {
   }
 
   console.log(players)
-  
+
   return (
     <div className="App">
+      <p>hello</p>
       {
         players.map(player => {
           return (
